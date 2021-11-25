@@ -83,7 +83,7 @@ int solution3() {
 }
 
 
-int main()
+int mainLL()
 {
 	solution1();
 	solution2();

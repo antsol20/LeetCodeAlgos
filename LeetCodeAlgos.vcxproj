@@ -84,14 +84,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\PalindromeLinkedList1.cpp" />
-    <ClCompile Include="src\PalindromeLinkedList2.cpp" />
-    <ClCompile Include="src\PalindromeLinkedList3.cpp" />
+    <ClCompile Include="src\PalindromeLinkedList\mainLL.cpp" />
+    <ClCompile Include="src\PalindromeLinkedList\PalindromeLinkedList1.cpp" />
+    <ClCompile Include="src\PalindromeLinkedList\PalindromeLinkedList2.cpp" />
+    <ClCompile Include="src\PalindromeLinkedList\PalindromeLinkedList3.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\ListNode.h" />
-    <ClInclude Include="src\Solutions.h" />
+    <ClInclude Include="src\PalindromeLinkedList\ListNode.h" />
+    <ClInclude Include="src\PalindromeLinkedList\Solutions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

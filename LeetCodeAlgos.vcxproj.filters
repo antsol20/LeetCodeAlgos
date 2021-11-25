@@ -15,24 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp">
+    <ClCompile Include="src\PalindromeLinkedList\mainLL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\PalindromeLinkedList1.cpp">
+    <ClCompile Include="src\PalindromeLinkedList\PalindromeLinkedList1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\PalindromeLinkedList2.cpp">
+    <ClCompile Include="src\PalindromeLinkedList\PalindromeLinkedList2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\PalindromeLinkedList3.cpp">
+    <ClCompile Include="src\PalindromeLinkedList\PalindromeLinkedList3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\ListNode.h">
+    <ClInclude Include="src\PalindromeLinkedList\ListNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Solutions.h">
+    <ClInclude Include="src\PalindromeLinkedList\Solutions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
