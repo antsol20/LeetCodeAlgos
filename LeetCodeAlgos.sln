@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCodeAlgos", "LeetCodeAlgos.vcxproj", "{E1ECB0C8-8BF6-400B-9B78-0A15D4FB7C97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1ECB0C8-8BF6-400B-9B78-0A15D4FB7C97}.Debug|x64.ActiveCfg = Debug|x64
+		{E1ECB0C8-8BF6-400B-9B78-0A15D4FB7C97}.Debug|x64.Build.0 = Debug|x64
+		{E1ECB0C8-8BF6-400B-9B78-0A15D4FB7C97}.Release|x64.ActiveCfg = Release|x64
+		{E1ECB0C8-8BF6-400B-9B78-0A15D4FB7C97}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAE477FD-F47A-46F9-821C-1501745D67C1}
+	EndGlobalSection
+EndGlobal
