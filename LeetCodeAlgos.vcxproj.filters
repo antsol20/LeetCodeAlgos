@@ -27,12 +27,18 @@
     <ClCompile Include="src\PalindromeLinkedList\PalindromeLinkedList3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Knapsack\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\PalindromeLinkedList\ListNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\PalindromeLinkedList\Solutions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Knapsack\Item.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
