@@ -1,11 +1,12 @@
 #include <vector>
 #include <iostream>
 
-int max(int a, int b) {
+int max(int a, int b)
+{
 	return (a > b) ? a : b;
 }
 
-int calc(std::vector<int>& vec, int turn, int p1sum, int p2sum, int tabnums)
+int calc(std::vector<int> &vec, int turn, int p1sum, int p2sum, int tabnums)
 {
 	for (size_t i = 0; i < tabnums; i++)
 	{
@@ -14,10 +15,10 @@ int calc(std::vector<int>& vec, int turn, int p1sum, int p2sum, int tabnums)
 
 	tabnums++;
 
-	std::cout << "turn:" << turn << " p1sum:" << p1sum << " p2sum:" << p2sum  << std::endl;
+	std::cout << "turn:" << turn << " p1sum:" << p1sum << " p2sum:" << p2sum << std::endl;
 
-
-	if (vec.size() == 0) {
+	if (vec.size() == 0)
+	{
 		return 0;
 	}
 
@@ -30,40 +31,38 @@ int calc(std::vector<int>& vec, int turn, int p1sum, int p2sum, int tabnums)
 
 	for (size_t i = 1; i < vec.size(); i++)
 	{
-		vec1.push_back(vec[i]);  // no front
-
+		vec1.push_back(vec[i]); // no front
 	}
 
 	for (size_t i = 0; i < vec.size() - 1; i++)
 	{
-		vec2.push_back(vec[i]);  // no back
-
+		vec2.push_back(vec[i]); // no back
 	}
 
-	if (turn == 1) {
+	if (turn == 1)
+	{
 		calc(vec1, turn * -1, p1sum + vec[0], p2sum, tabnums);
 		calc(vec2, turn * -1, p1sum + vec[vec.size() - 1], p2sum, tabnums);
 	}
-	else {
+	else
+	{
 		calc(vec1, turn * -1, p1sum, p2sum + vec[0], tabnums);
 		calc(vec2, turn * -1, p1sum, p2sum + vec[vec.size() - 1], tabnums);
 	}
 
-
 	//return max(vec[0] + calc(vec1), vec[vec.size() - 1] + calc(vec2))
 
+	// 1, 1, 10, 1, 1
+	// 1, 10, 1, 1
+	// 1, 1, 10, 1
+	//
+	// 1, 1, 10,
+	//
+	// 1, 10, 1
 
-		// 1, 1, 10, 1, 1
-		// 1, 10, 1, 1
-		// 1, 1, 10, 1
-		// 
-		// 1, 1, 10,
-		// 
-		// 1, 10, 1
-
-
-
+	return 0;
 }
+
 
 int main()
 {
@@ -81,5 +80,7 @@ int main()
 
 	std::cout << calc(vec, turn, p1sum, p2sum, tabnums);
 
+	std::cout << "hello world";
 	return 0;
+
 }
