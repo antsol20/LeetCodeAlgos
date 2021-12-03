@@ -8,6 +8,7 @@
             "label": "C/C++: cl.exe build active file",
             "command": "cl.exe",
             "args": [
+              "/EHsc",
               "/Fo:",
               "${workspaceFolder}\\obj\\",
               "/Fe:",
